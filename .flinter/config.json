@@ -1,0 +1,21 @@
+{
+    "defaults": {
+        "markdownFileExtensions": [
+            "md",
+            "mdx"
+        ],
+        "debug": true,
+        "frontmatter": [
+            {
+                "field": "title",
+                "type": "text",
+                "required": true
+            },
+            {
+                "field": "author",
+                "type": "object",
+                "required": true
+            }
+        ]
+    }
+}
