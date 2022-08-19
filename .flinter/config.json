@@ -15,6 +15,11 @@
                 "field": "author",
                 "type": "object",
                 "required": true
+            },
+            {
+                "field": "date",
+                "type": "text",
+                "required": true
             }
         ]
     }
